@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel = "icon" href = "./Assets/logo.png" type = "image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mouse+Memoirs&family=Play&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="left_nav">
+                <div class="left_nav_options" style="opacity: 1;">
+                    <i class="fa-solid fa-house" style="opacity: 1;" id="home"></i>
+                    Home
+                </div>
+                <div class="left_nav_options">
+                    <i class="fa-solid fa-magnifying-glass" id="search"></i> 
+                    Search
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib_heading">
+                    <div class="lib_heading_left">
+                        <img src="./Assets/library_icon.png" height="22px" alt="library" id="lib"> <label for="lib">Your Library</label> 
+                    </div>
+                    <div class="lib_heading_right">
+                        <i class="fa-regular fa-plus"></i> <i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                    <div class="left_nav_box">
+                        <div class="lib_box">
+                            <div class="lib_box_text1">Create your first playlist</div>
+                            <div class="lib_box_text2">It's easy, we'll help you</div>
+                            <button class="btn1">Create playlist</button>
+                        </div>
+                        <div class="lib_box">
+                            <div class="lib_box_text1">Let's find some podcasts to follow</div>
+                            <div class="lib_box_text2">We'll keep you updated on new episodes</div>
+                            <button class="btn2">Browse podcasts</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="top_nav">
+                <div class="top_nav_options top_nav_left">
+                    <img src="./Assets/backward_icon.png" alt="backward icon" srcset="">
+                    <img src="./Assets/forward_icon.png" alt="forward icon" srcset="">
+                </div>
+                <div class="top_nav_options top_nav_right">
+                    <!-- <button class="btn2">Explore Premium</button> -->
+                    <button class="btn-3">Explore Premium</button>
+                    <button class="btn-4"><i class="fa-sharp fa-regular fa-circle-down"></i>Install App</button>
+
+                    <i class="fa-regular fa-user"></i>
+                    
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card_layout">
+                    <img src="./Assets/card1img.jpeg" alt="Recently played">
+                    <div class="card_heading">Top 50-Global</div>
+                    <div class="card_des">Your daily update of the most played tracks right...</div>
+                </div>
+
+
+                <h2>Trending Now</h2>
+                <div class="card_container">
+                    <div class="card_layout">
+                        <img src="./Assets/card2img.jpeg" alt="Recently played">
+                        <div class="card_heading">Mahiye Jinna Sohna</div>
+                        <div class="card_des">Darshan Raval</div>
+                    </div>
+
+                    <div class="card_layout">
+                        <img src="./Assets/card3img.jpeg" alt="Recently played">
+                        <div class="card_heading">Melody Flow</div>
+                        <div class="card_des">Rahat fateh Ali Khan</div>
+                    </div>
+
+                    <div class="card_layout">
+                        <img src="./Assets/card4img.jpeg" alt="Recently played">
+                        <div class="card_heading">Naa Ready(From "L...</div>
+                        <div class="card_des">Anirudh Ravichander, Thalapathy Vijay, Asal...</div>
+                    </div>
+                </div>
+
+
+                <h2>Featured Charts</h2>
+                <div class="card_container">
+                    <div class="card_layout">
+                        <img src="./Assets/card5img.jpeg" alt="Recently played">
+                        <div class="card_heading">Top Songs-Global</div>
+                        <div class="card_des">Your weekly update of the most played tracks right...</div>
+                    </div>
+
+                    <div class="card_layout">
+                        <img src="./Assets/card6img.jpeg" alt="Recently played">
+                        <div class="card_heading">Top Songs-India</div>
+                        <div class="card_des">Your weekly update of the most played tracks right...</div>
+                    </div>
+
+                    <div class="card_layout">
+                        <img src="./Assets/card1img.jpeg" alt="Recently played">
+                        <div class="card_heading">Top 50-Global</div>
+                        <div class="card_des">Your daily update of the most played tracks right...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="upper_footer">
+                    <div class="upper_footer_left">
+                        <div class="upper_footer_left_div">
+                            <ul>
+                                <li class="list_heading" style="opacity: 1; font-weight: bold;">Company</li>
+                                <li>About</li>
+                                <li>Jobs</li>
+                                <li>For the Record</li>
+                            </ul>
+                        </div>
+                        <div class="upper_footer_left_div">
+                            <ul>
+                                <li class="list_heading" style="opacity: 1; font-weight: bold;">Communties</li>
+                                <li>For Artists</li>
+                                <li>Developers</li>
+                                <li>Advertising</li>
+                                <li>Investors</li>
+                                <li>Vendors</li>
+                                <li>Spotify for Work</li>
+                            </ul>
+                        </div>
+                        <div class="upper_footer_left_div">
+                            <ul>
+                                <li class="list_heading" style="opacity: 1; font-weight: bold;">Useful links</li>
+                                <li>Support</li>
+                                <li>Free Mobile App</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="upper_footer_right">
+                        <div class="footer_icons">
+                            <i class="fa-brands fa-instagram"></i>
+                            
+                        </div>
+                        <div class="footer_icons">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="footer_icons">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr style="opacity: 0.1; margin-bottom: 2rem;">
+                <div class="lower_footer">
+                    <div class="lower_footer_left">
+                        <span>
+                            Legal
+                        </span>
+                        <span>
+                            Privacy Center
+                        </span>
+                        <span>
+                            Privacy Policy
+                        </span>
+                        <span>
+                            Cookies 
+                        </span>
+                        <span>
+                            About Ads
+                        </span>
+                        <span>
+                            Accessibility
+                        </span>
+                    </div>
+                    <div class="lower_footer_right">
+                        &copy; 2023 Spotify AB
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
+        </div>
+        <div class="music_player">
+            <div class="mp_left"></div>
+            <div class="mp_middle">
+                <div class="playback_options">
+                    <img src="./Assets/player_icon1.png" alt="speed">
+                    <img src="./Assets/player_icon2.png" alt="reverse">
+                    <img src="./Assets/play_musicbar.png" alt="play" style="opacity: 1; width: 2rem;" >
+                    <img src="./Assets/player_icon4.png" alt="next">
+                    <img src="./Assets/player_icon5.png" alt="forward">
+                </div>
+                <div class="seekbar">
+                    0:00
+                    <input type="range" name="seek" class="seek" min="0" max="100" step="1" id="seek">
+                    1:02:04
+                </div>
+            </div>
+            <div class="mp_right"></div>
+        </div>
+    </div>
+</body>
+</html>
